@@ -1,0 +1,15 @@
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/Delegates.csproj.AssemblyReference.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/Delegates.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/Delegates.AssemblyInfoInputs.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/Delegates.AssemblyInfo.cs
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/Delegates.csproj.CoreCompileInputs.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/bin/Debug/net5.0/Delegates.deps.json
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/bin/Debug/net5.0/Delegates.runtimeconfig.json
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/bin/Debug/net5.0/Delegates.runtimeconfig.dev.json
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/bin/Debug/net5.0/Delegates.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/bin/Debug/net5.0/ref/Delegates.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/bin/Debug/net5.0/Delegates.pdb
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/Delegates.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/ref/Delegates.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/Delegates.pdb
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/Debug/net5.0/Delegates.genruntimeconfig.cache
