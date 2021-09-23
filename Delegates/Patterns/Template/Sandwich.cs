@@ -37,14 +37,4 @@ namespace Delegates.Patterns.Template
             Console.WriteLine("Base wrap");
         } 
     }
-    
-    public class StandardSandwich: Sandwich {}
-
-    public class DrySandwich : Sandwich
-    {
-        protected override void ButterBread()
-        {
-            Console.WriteLine("No butter for me!");
-        }
-    }
 }

@@ -1,14 +1,13 @@
 using System;
 using System.Windows.Input;
 
-#nullable enable
 namespace Delegates.Patterns.Command
 {
-    public class SaveCommand : ICommand
+    public class DeleteCommand : ICommand
     {
         private readonly IDocumentManagement _documentManagement;
 
-        public SaveCommand(IDocumentManagement documentManagement)
+        public DeleteCommand(IDocumentManagement documentManagement)
         {
             _documentManagement = documentManagement;
         }
@@ -19,7 +18,7 @@ namespace Delegates.Patterns.Command
 
         public void Execute(object? parameter)
         {
-            _documentManagement.Save();
+            _documentManagement.Delete();
         }
 
         public event EventHandler? CanExecuteChanged;

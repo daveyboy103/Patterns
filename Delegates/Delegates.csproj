@@ -7,8 +7,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Patterns\Bridge" />
-      <Folder Include="Patterns\Facade" />
+      <Compile Remove="Patterns\Facade\**" />
+      <Compile Remove="Patterns\Bridge\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Patterns\Facade\**" />
+      <EmbeddedResource Remove="Patterns\Bridge\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Patterns\Facade\**" />
+      <None Remove="Patterns\Bridge\**" />
     </ItemGroup>
 
 </Project>
