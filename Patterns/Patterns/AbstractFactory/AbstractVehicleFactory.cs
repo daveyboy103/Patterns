@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Threading;
-
-namespace Delegates.Patterns
+namespace Delegates.Patterns.AbstractFactory
 {
     public abstract class AbstractVehicleFactory
     {

@@ -1,4 +1,4 @@
-namespace Delegates.Patterns
+namespace Delegates.Patterns.AbstractFactory
 {
     public class Van : Vehicle
     {

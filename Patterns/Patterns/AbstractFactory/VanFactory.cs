@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Delegates.Patterns
+namespace Delegates.Patterns.AbstractFactory
 {
     public class VanFactory : VehicleFactory
     {

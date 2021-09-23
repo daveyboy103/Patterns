@@ -1,6 +1,6 @@
 using System;
 
-namespace Delegates.Patterns
+namespace Delegates.Patterns.AbstractFactory
 {
     public class VehicleFactoryMaker : AbstractVehicleFactory
     {

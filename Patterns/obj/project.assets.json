@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/Delegates.csproj",
-      "projectName": "Delegates",
-      "projectPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/Delegates.csproj",
+      "projectUniqueName": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/Patterns.csproj",
+      "projectName": "Patterns",
+      "projectPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/Patterns.csproj",
       "packagesPath": "/Users/davidharrington/.nuget/packages/",
-      "outputPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Delegates/obj/",
+      "outputPath": "/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/davidharrington/.nuget/NuGet/NuGet.Config"

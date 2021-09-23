@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Delegates.Patterns
+namespace Delegates.Patterns.AbstractFactory
 {
     public abstract class Vehicle
     {
