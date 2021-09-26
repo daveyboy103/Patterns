@@ -1,0 +1,15 @@
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/bin/Debug/net5.0/Patterns.deps.json
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/bin/Debug/net5.0/Patterns.runtimeconfig.json
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/bin/Debug/net5.0/Patterns.runtimeconfig.dev.json
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/bin/Debug/net5.0/Patterns.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/bin/Debug/net5.0/ref/Patterns.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/bin/Debug/net5.0/Patterns.pdb
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/Patterns.csproj.AssemblyReference.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/Patterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/Patterns.AssemblyInfoInputs.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/Patterns.AssemblyInfo.cs
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/Patterns.csproj.CoreCompileInputs.cache
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/Patterns.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/ref/Patterns.dll
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/Patterns.pdb
+/Users/davidharrington/Library/Mobile Documents/com~apple~CloudDocs/Projects/RiderProjects/Delegates/Patterns/obj/Debug/net5.0/Patterns.genruntimeconfig.cache

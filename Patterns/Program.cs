@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Delegates.Patterns;
 using Delegates.Patterns.Adapter;
 using Delegates.Patterns.Builder;
 using Delegates.Patterns.Command;
+using Delegates.Patterns.Composite;
+using Delegates.Patterns.Decorator;
 using Delegates.Patterns.Factory;
 using Delegates.Patterns.Iteratror;
 using Delegates.Patterns.Observer;
 using Delegates.Patterns.Prototype;
 using Delegates.Patterns.Singleton;
-using Delegates.Patterns.Strategy;
 using Delegates.Patterns.Template;
+using Delegates.Patterns.Vistor;
 
 namespace Delegates
 {
@@ -140,6 +141,33 @@ namespace Delegates
 
             TestIterations iterations = new TestIterations();
             iterations.Test();
+
+            IOrganisationUnit company = new Organisation() { Name = "IBM" };
+            company.AddNew(new Organisation() { Name = "Marketing" });
+            company.AddNew(new Organisation() { Name = "Finance" });
+            company.AddNew(new Organisation() { Name = "Technology" });
+            company.AddNew(new Organisation() { Name = "Sales" });
+
+            var targetPizza = new Pepperoni(new Mozarella(new Mushroom(new PlainPizza())));
+            
+            IPizza  pizza = new PlainPizza();
+            new Mozarella(pizza);
+            new Pepperoni(pizza);
+            new Mushroom(pizza);
+            
+            Console.WriteLine($"1 # Descr: {pizza.Description}, Cost: {pizza.Cost}");
+
+            pizza = new PlainPizza();
+            pizza.AddTopping(new Mozarella());
+            pizza.AddTopping(new Mushroom());
+            pizza.AddTopping(new Pepperoni());
+            pizza.AddTopping(new Pepperoni());
+
+            pizza.TakeFromInventory(2);
+            pizza.SetTaxStatus(TaxStatus.Exempt);
+            
+            Console.WriteLine($"2 # Descr: {pizza.Description}, Cost: {pizza.Cost}, Tax Status: {pizza.TaxStatus}");
+            Console.WriteLine($"Target # Descr: {targetPizza.Description}, Cost: {targetPizza.Cost}");
              
             Console.ReadKey();
         }
