@@ -12,6 +12,7 @@ using Delegates.Patterns.Iteratror;
 using Delegates.Patterns.Observer;
 using Delegates.Patterns.Prototype;
 using Delegates.Patterns.Singleton;
+using Delegates.Patterns.State;
 using Delegates.Patterns.Template;
 using Delegates.Patterns.Vistor;
 
@@ -168,7 +169,33 @@ namespace Delegates
             
             Console.WriteLine($"2 # Descr: {pizza.Description}, Cost: {pizza.Cost}, Tax Status: {pizza.TaxStatus}");
             Console.WriteLine($"Target # Descr: {targetPizza.Description}, Cost: {targetPizza.Cost}");
-             
+
+            var fxTrade = new FxTrade { Value = 1234.56d };
+            var eqTrade = new EquityTrade() { Value = 1234.56d };
+            var stampDutyVisitor = new StampDutyVisitor();
+
+            Console.WriteLine($"FxTrade: {fxTrade.Value}, Duty:{fxTrade.Duty}  Value: {fxTrade.Accept(stampDutyVisitor)}");
+            Console.WriteLine($"Equity Trade: {eqTrade.Value}, Duty:{eqTrade.Duty}, Value:  {eqTrade.Accept(stampDutyVisitor)}");
+
+            var atm = new Atm();
+
+            Console.WriteLine(atm.EnterPin(1234));
+            Console.WriteLine(atm.InsertCard());
+            Console.WriteLine(atm.EnterPin(1234));
+            Console.WriteLine(atm.EnterPin(123456));
+            Console.WriteLine(atm.RequestCash(125));
+            Console.WriteLine(atm.WithdrawCard());
+            Console.WriteLine(atm.State);
+            atm.State = StateBehaviourFactory.Get(StateBehaviourType.OutOfMoney);
+            Console.WriteLine(atm.EnterPin(123456));
+            Console.WriteLine(atm.InsertCard());
+            atm.State = StateBehaviourFactory.Get(StateBehaviourType.NoCard);
+            Console.WriteLine(atm.InsertCard());
+            Console.WriteLine(atm.EnterPin(123456));
+
+            Console.WriteLine(atm.RequestCash(125));
+            Console.WriteLine(atm.WithdrawCard());
+
             Console.ReadKey();
         }
 
