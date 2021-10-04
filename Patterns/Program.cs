@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Delegates.Patterns.Adapter;
 using Delegates.Patterns.Builder;
+using Delegates.Patterns.ChainOfResponsibility;
 using Delegates.Patterns.Command;
 using Delegates.Patterns.Composite;
 using Delegates.Patterns.Decorator;
@@ -195,6 +196,37 @@ namespace Delegates
 
             Console.WriteLine(atm.RequestCash(125));
             Console.WriteLine(atm.WithdrawCard());
+
+            ITradeType tradeType = new TradeType2();
+
+            var processor = new TradeTypeProcessorType1()
+            {
+                NextProcessor = new TradeTypeProcessorType2()
+                {
+                    NextProcessor = new TradeTypeProcessorType3()
+                }
+            };
+            
+            Console.WriteLine(processor.Process(tradeType).ToString());
+            
+            tradeType = new TradeType3();
+            
+            Console.WriteLine(processor.Process(tradeType).ToString());
+            
+            tradeType = new TradeType1();
+            
+            Console.WriteLine(processor.Process(tradeType).ToString()); 
+            
+            tradeType = new TradeTypeNone();
+
+            try
+            {
+                Console.WriteLine(processor.Process(tradeType).ToString());
+            }
+            catch (NotImplementedException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
             Console.ReadKey();
         }

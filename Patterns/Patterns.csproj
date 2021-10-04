@@ -22,4 +22,8 @@
       <None Remove="Patterns\Bridge\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Patterns\Mediator" />
+    </ItemGroup>
+
 </Project>
