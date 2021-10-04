@@ -7,7 +7,6 @@ namespace Delegates.Patterns.Decorator
         string Description { get; set; }
         decimal Cost { get; set; }
         TaxStatus TaxStatus { get; set; }
-
         void AddTopping(ToppingDecorator topping);
     }
 }

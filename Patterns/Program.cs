@@ -127,6 +127,8 @@ namespace Delegates
             generator = new LegacyPersonGenerator();
             generator.Create("David", "Harrington", Gender.Male);
             LegacyPerson legacyPerson  = ((ILegacyPersonRetriever) generator).Get();
+
+            newPerson = legacyPerson.ToPerson();
             
             Console.WriteLine(newPerson);
             Console.WriteLine(legacyPerson);
@@ -153,10 +155,7 @@ namespace Delegates
             var targetPizza = new Pepperoni(new Mozarella(new Mushroom(new PlainPizza())));
             
             IPizza  pizza = new PlainPizza();
-            new Mozarella(pizza);
-            new Pepperoni(pizza);
-            new Mushroom(pizza);
-            
+
             Console.WriteLine($"1 # Descr: {pizza.Description}, Cost: {pizza.Cost}");
 
             pizza = new PlainPizza();
